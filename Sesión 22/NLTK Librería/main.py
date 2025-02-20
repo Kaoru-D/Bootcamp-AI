@@ -16,7 +16,40 @@ from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 
 #definimos un texto en español al que queremos analizar
-texto="""El perro corre rápido, pero no se mueve. Ibamos a la playa y el perro se quedó quieto; Decidimos llevarlo al veterinario. El veterinario nos dijo que el perro estaba enfermo, necesitaba una vacuna, el problema era el costo de la vacuna, preguntamos si había otra vacuna que no costara tanto o alguna manera de pagarlo a cuotas. El veterinario nos dijo que no habia otra vacuna que no costara tanto, pero, al ver la angustia en nuestros ojos, decidió darnos una facilidad de pago para pagar la vacuna. Después de que el veterinario le aplicara la vacuna el perro ya se encuentra mejor y puede seguir corriendo."""
+texto="""El Ahorro Energético: Pequeños Gestos, Grandes Impactos
+En un mundo donde el consumo de energía no deja de aumentar, adoptar hábitos de ahorro energético se ha convertido en una responsabilidad compartida.
+No solo reduce el impacto ambiental, sino que también alivia la economía familiar y contribuye a un futuro más sostenible. 
+Aquí te contamos cómo pequeños cambios pueden marcar la diferencia.
+¿Por qué ahorrar energía?
+La producción de energía, especialmente la proveniente de combustibles fósiles, es una de las principales fuentes de emisiones de CO₂, acelerando el cambio climático. Además, el derroche energético aumenta facturas y agota recursos no renovables. 
+Ahorrar energía no es solo un acto ecológico, sino también una forma de cuidar nuestro bolsillo.
+Acciones Cotidianas para Reducir el Consumo
+Iluminación inteligente:
+Sustituye bombillas tradicionales por LED, que consumen hasta un 80% menos y duran más.
+Aprovecha la luz natural: abre cortinas y pinta paredes con colores claros para reflejar mejor la luz.
+Electrodomésticos eficientes:
+Elige modelos con etiqueta A+++, los más eficientes del mercado.
+Desconecta dispositivos en modo standby (como televisores o cargadores), ya que siguen consumiendo energía.
+Climatización responsable:
+Regula el termostato: 20°C en invierno y 25°C en verano son temperaturas ideales.
+Mejora el aislamiento de puertas y ventanas para evitar fugas de calor o frío.
+Agua caliente con conciencia:
+Duchas cortas en lugar de baños reducen el uso de agua y energía.
+Instala reguladores de caudal en grifos y duchas.
+Transporte sostenible:
+Camina, usa bicicleta o transporte público para trayectos cortos.
+Si conduces, mantén una velocidad constante y revisa la presión de los neumáticos para ahorrar combustible.
+Inversiones a Largo Plazo
+Paneles solares: Genera tu propia energía renovable y reduce tu dependencia de la red eléctrica.
+Sistemas de domótica: Programar el apagado automático de luces o la gestión de la calefacción optimiza el consumo.
+Rehabilitación energética: Mejorar el aislamiento de techos y paredes puede reducir hasta un 30% el gasto en climatización.
+El Poder de la Conciencia Colectiva
+El ahorro energético no es solo una tarea individual. Las empresas, gobiernos y comunidades deben promover políticas de eficiencia, como incentivos fiscales para renovaciones o la expansión de energías limpias. 
+Cada acción suma: desde apagar una luz hasta participar en campañas de reforestación.
+Conclusión
+Ahorrar energía no requiere sacrificios extremos, sino adoptar un estilo de vida más consciente. Pequeños ajustes en nuestro día a día no solo benefician al planeta, sino que también nos enseñan a vivir con lo esencial. Como dijo el físico Albert Einstein: "El mundo no está amenazado por las malas personas, sino por aquellos que permiten la maldad". 
+Hoy, elegir la eficiencia es un acto de responsabilidad hacia las generaciones futuras.
+"""
 
 #dividimos el texto en palabras
 palabras=word_tokenize(texto,language="spanish")
